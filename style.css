@@ -33,7 +33,7 @@ body {
 height: 700px;*/
   }
 
-  .paintstationdiv {
+#paintstationdiv {
     /*flex: 1;
     border: 5px solid yellow;
     display: inline-block;*/
