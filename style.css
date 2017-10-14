@@ -1,12 +1,28 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
 body {
   margin:0;
-  padding:0;
+/*padding-left: 2%;*/
   width: 100%;
   height:100%;
 }
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 50px
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+
 .flexbox {
   display: flex;
-  border: 5px solid blue;
+  /*border: 5px solid blue;*/
   height: 95vh;
   width: 95vw;
   flex-direction: column;
@@ -15,30 +31,37 @@ body {
 
 .headerdiv {
   display: flex;
-  border: 5px solid pink;
+  /*border: 5px solid pink;*/
+  flex-direction: column;
   justify-content: center;
+
 }
+
 
 .bodydiv {
   display: flex;
   flex: 1;
-  border: 5px solid purple;
+  /*border: 5px solid purple;*/
+}
+
+.emptydiv{
+  flex: .5;
 }
 
   #griddiv {
     display: flex;
     flex: 2;
-    border: 5px solid green;
-    /*width: 700px;
-height: 700px;*/
+    background: #eee;
+    border: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, white 0%, grey 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, white 0%, grey 100%);
+    border-image: linear-gradient(to bottom right, grey 0%, white 100%);
+    border-image-slice: 1;
+
   }
 
 #paintstationdiv {
-    /*flex: 1;
-    border: 5px solid yellow;
-    display: inline-block;*/
     width: 400px;
     display: inline-block;
     margin: auto;
-    /*margin-top: 1%;*/
   }
