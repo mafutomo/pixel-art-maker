@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
         event.target.style.backgroundImage = chosenColor;
         event.target.style.backgroundSize = '25px 25px';
       } else {
+        event.target.style.backgroundImage = "";
         event.target.style.backgroundColor = chosenColor;
       }
 
